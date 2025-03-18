@@ -1,0 +1,66 @@
+.image-container {
+    position: relative;
+    border-radius: 3rem;
+}
+
+
+.likeandshare {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0);
+    /* Background color with transparency */
+    backdrop-filter: blur(3px);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.7rem;
+}
+
+.custom-card {
+    width: 13rem;
+    margin: .8rem 0.3rem;
+    border: none;
+}
+
+.card-img {
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 0.8rem;
+    max-width: 100%;
+    transition: all 0.2s;
+}
+
+.card-img:hover {
+    transform: scale(1.03);
+
+}
+
+.title {
+    margin-top: 0;
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+}
+
+.card-body {
+    padding: 0.55rem 0 0 0;
+    height: 4rem;
+}
+
+.ingredientss {
+    text-wrap: nowrap;
+}

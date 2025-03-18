@@ -1,0 +1,110 @@
+.outer-container {
+    background-image: url('../assets/loginImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0rem 4rem;
+
+}
+
+.containerr-log {
+    height: fit-content;
+    padding: 2rem 3rem;
+    background: rgba(255, 255, 255, 0.3);
+    /* Adjust background color and opacity */
+    backdrop-filter: blur(8px);
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.login-container {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.login-button {
+    border-radius: 20px;
+    padding: 12px;
+    margin: 10px;
+}
+
+.sub-con {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btnn {
+    border: none;
+    font-size: 1.2rem;
+    padding: .5rem 1.5rem;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.submit-bttn {
+    background-color: black;
+    color: white;
+}
+
+.login-bttn {
+    background-color: white;
+    color: black;
+}
+
+.inputss {
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.inputt {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+    margin-top: 18px;
+}
+
+.inputt input {
+    height: 100%;
+    width: 350px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 14px;
+}
+
+.log-con {
+    margin: 1rem auto;
+}
+
+.log-con p {
+    margin-bottom: 0;
+    color: white;
+}
+
+.inputt img {
+    margin: 0px 30px;
+}
+
+.val-error {
+    width: 100%;
+    color: red;
+}
+
+.headText {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+}

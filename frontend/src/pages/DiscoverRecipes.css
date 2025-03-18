@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading>h2 {
+    color: rgb(255, 123, 46);
+
+}
+
+.row0 {
+    background: url('../assets/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    display: block;
+    padding: 1rem;
+    color: white;
+}
+
+.rows {
+    scroll-snap-align: start;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    min-height: 93vh;
+    width: 100%;
+}
+
+.maincap {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2.5s steps(40, end);
+    max-width: fit-content;
+}
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.discover {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+
+}
+
+.maincap {
+    font-weight: 600;
+    font-size: 4.7rem;
+}
+
+.cap {
+    font-size: 3.4rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 4rem;
+}
+
+.pcontainer>* {
+    width: 63vw;
+    padding-top: 3rem;
+}
+
+.pcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.orange {
+    color: rgb(255, 123, 46);
+}
+
+
+
+.discover-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    align-self: center;
+}
+
+.load-recipe {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid rgb(255, 123, 46);
+    background: transparent;
+    transition: 0.3s;
+}
+
+.load-recipe:hover {
+    transform: scale(1.05);
+    color: rgb(255, 123, 46);
+}
+
+.discover-recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.categoryFilter {
+    margin-bottom: 2rem;
+    border-bottom: 0.5px solid rgb(182, 182, 182);
+    padding-bottom: 1rem;
+}

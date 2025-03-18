@@ -1,0 +1,288 @@
+.COMPLETE_RECIPE {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.complete-recipe-container {
+    text-align: start;
+    display: flex;
+    width: 80%;
+}
+
+.complete-recipe-row {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+}
+
+.ingredients {
+    list-style: none;
+    border: 1px solid grey;
+    padding: 0 1rem;
+    margin: 0.4rem 1rem;
+    margin-left: 0;
+    border-radius: 20px;
+}
+
+.Ingre {
+    width: 40%;
+    border-right: 2px solid rgb(224, 224, 224);
+    border-bottom: 2px solid rgb(224, 224, 224);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.review-heading {
+    position: sticky;
+    top: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    background-color: white;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.ingre {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 0;
+
+}
+
+.timeandlevel {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.ingre>li {
+    text-wrap: nowrap;
+}
+
+.complete-recipe-col-1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.step-row {
+    overflow: auto;
+}
+
+.step {
+    min-width: 250px;
+    text-align: left;
+    border-right: 2px solid rgb(255, 123, 46);
+    border-bottom: 2px solid rgb(255, 123, 46);
+    border-radius: 30px;
+    padding: 1rem;
+
+}
+
+.takereview {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+
+.in {
+    width: 100%;
+    padding: .4rem 1rem;
+    border: 1px solid grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#review {
+    border: none !important;
+    outline: none;
+    flex-grow: 1;
+}
+
+
+.step>h1 {
+    font-size: 2.5rem;
+}
+
+.orange {
+    color: rgb(255, 123, 46);
+}
+
+.cuisine-type {
+    color: rgb(255, 123, 46);
+    font-size: 1.4rem;
+}
+
+.recipe-imgg {
+    position: relative;
+    height: 450px;
+    width: 420px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.savee-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.savee {
+    background-color: rgb(255, 123, 46);
+}
+
+.likee {
+    background-color: rgb(5, 163, 5);
+}
+
+.btnnn {
+    border-radius: 30px;
+    height: 50px;
+    width: 130px;
+    display: grid;
+    place-items: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+}
+
+.profile-icon {
+    height: 100%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.saveRibbon {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1.4rem;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.re-author {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.dish-name>h1 {
+    font-size: 40px;
+}
+
+.dish-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.dish-name>h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(40, end);
+    max-width: fit-content;
+}
+
+/* Keyframes for the typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.nutritarian-list {
+    color: rgb(255, 123, 46);
+    padding-left: 14px;
+}
+
+.note {
+    font-size: 20px;
+}
+
+.Save-count,
+.Like-count {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.8rem;
+}
+
+.customization {
+    color: grey;
+}
+
+.recipe-steps {
+    font-size: 20px;
+}
+
+.iconn {
+    margin-left: 0;
+    margin-right: 0.3rem;
+}
+
+.likeandsaveribbon {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 18px;
+}
+
+
+.input-review {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    border-right: 2px solid rgb(224, 224, 224);
+    border-bottom: 2px solid rgb(224, 224, 224);
+    border-radius: 20px;
+}
+
+.revieww {
+    padding: 5px 20px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 100%;
+}
+
+.save-count-icon {
+    color: rgb(255, 123, 46);
+}
+
+.like-count-icon {
+    color: rgb(5, 163, 5);
+}
+
+.last-detailed {
+    display: flex;
+}
+
+.last-complete-recipe {
+    justify-content: space-between;
+    height: 300px;
+}

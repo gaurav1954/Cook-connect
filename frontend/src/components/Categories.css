@@ -1,0 +1,11 @@
+.categories-container {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+}
+
+.categories-heading {
+    margin-bottom: 1rem;
+}
